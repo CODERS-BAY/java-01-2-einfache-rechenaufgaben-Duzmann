@@ -1,0 +1,48 @@
+public class AnotherTestToGetStarted {
+    public static void main(String[] args) {
+
+/*
+# Java
+
+## Variablen und Datentypen
+
+### Aufgabe 1.2 - Einfache Rechenaufgaben
+
+Deklariere zwei numerische Variablen mit beliebigen Werten. Errechne deren Summe, Differenz, Produkt und Quotient
+und gib die Rechnung mit dem Ergebnis mit `System.out.println`/`System.out.printf` auf der Konsole aus.
+Rechne einmal mit ganzzahligen und einmal mit gebrochenen Zahlen!
+
+Bonus: Gib die Kommazahlen schön formatiert auf der Konsole aus.
+
+%s String
+%d Integer
+%f Float / Double
+%.3f Float mit 3 Nachkommastellen
+
+*/
+
+
+        // Variablen
+
+        int Zahl1,Zahl2;
+        double Ergebnis;
+
+        // Zuweisung
+
+        Zahl1= 1254;
+        Zahl2= 5487;
+
+        // Berechnung
+
+        Ergebnis = Zahl1+Zahl2;
+        System.out.printf("%d + %d = %d", Zahl1, Zahl2, Ergebnis);
+        Zahl1-Zahl2
+        System.out.printf("%d - %d = %d", Zahl1, Zahl2, Ergebnis);
+        Zahl1*Zahl2
+        System.out.printf("%d * %d = %d", Zahl1, Zahl2, Ergebnis);
+        Zahl1/Zahl2
+        System.out.printf("%d / %d = %.2f", Zahl1, Zahl2, Ergebnis);
+
+    }
+
+}
